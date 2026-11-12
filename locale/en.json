@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "title": "WeRead",
+    "description": "Left-sidebar reading workspace: synced shelf and progress, highlights and notes, local EPUB/TXT import, and a built-in reader with type and background controls."
+  },
+  "entry": {
+    "label": "WeRead"
+  }
+}

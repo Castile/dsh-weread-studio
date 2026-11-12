@@ -1,0 +1,6 @@
+# bundle patch：把微信读书工作台作为一行插件插入当前 profile。
+- insert:
+    - id: weread-studio
+      name: dsh-weread-studio
+      config:
+        syncProgress: false
