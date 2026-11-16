@@ -87,8 +87,12 @@ AI 对话在面板里与阅读器**并排**：右边是会话，左边是正文�
 ## 安装
 
 ```bash
-dsh plugin --profile desktop add "file:/path/to/weread-studio"
+git clone https://github.com/Castile/dsh-weread-studio.git
+cd dsh-weread-studio
+dsh plugin --profile desktop add "file:$PWD"
 ```
+
+也可以克隆到任意位置，把 `file:` 后的路径换成那份拷贝的绝对路径。
 
 装完需要整页刷新 GUI。注意：profile 里装的是**实体拷贝**而不是软链，所以改完源码要同步过去：
 
