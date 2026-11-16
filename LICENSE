@@ -23,6 +23,11 @@ SOFTWARE.
 
 ---
 
-lib/crypto.js and lib/reader.js include an MIT-licensed port of WeRead web
-reader encoding originally published by taincheng (https://github.com/taincheng/dsh-weread).
-lib/qrcode-generator.js is QR Code Generator for JavaScript by Kazuhiko Arase (MIT).
+Parts of this project are derived from MIT-licensed work by others:
+
+  - lib/crypto.js and lib/reader.js carry a port of the WeRead web reader
+    encoding implemented in dsh-weread by wwjzzy (https://github.com/wwjzzy/dsh-weread),
+    which in turn follows taincheng's implementation
+    (https://github.com/taincheng/dsh-weread).
+  - lib/qrcode-generator.cjs is QR Code Generator for JavaScript
+    by Kazuhiko Arase (MIT).
