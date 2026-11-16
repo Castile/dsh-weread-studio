@@ -47,6 +47,14 @@
     "reader"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Castile/dsh-weread-studio.git"
+  },
+  "homepage": "https://github.com/Castile/dsh-weread-studio#readme",
+  "bugs": {
+    "url": "https://github.com/Castile/dsh-weread-studio/issues"
+  },
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
